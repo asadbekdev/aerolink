@@ -1,8 +1,32 @@
-//
-//  countries.json
-//  aerolink
-//
-//  Created by asadbek on 21/09/24.
-//
-
-import Foundation
+[
+  {
+    "name": "United Kingdom",
+    "code": "gb",
+    "flagImgUrl": "https://flagpedia.net/data/flags/w80/gb.png"
+  },
+  {
+    "name": "United States",
+    "code": "us",
+    "flagImgUrl": "https://flagpedia.net/data/flags/w80/us.png"
+  },
+  {
+    "name": "United Arab Emirates",
+    "code": "ae",
+    "flagImgUrl": "https://flagpedia.net/data/flags/w80/ae.png"
+  },
+  {
+    "name": "France",
+    "code": "fr",
+    "flagImgUrl": "https://flagpedia.net/data/flags/w80/fr.png"
+  },
+  {
+    "name": "Spain",
+    "code": "es",
+    "flagImgUrl": "https://flagpedia.net/data/flags/w80/es.png"
+  },
+  {
+    "name": "Hong Kong",
+    "code": "hk",
+    "flagImgUrl": "https://flagpedia.net/data/flags/w80/hk.png"
+  }
+]

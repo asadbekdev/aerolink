@@ -8,22 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		D56DD0D12C9EC44D0092C7D8 /* aerolinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DD0D02C9EC44D0092C7D8 /* aerolinkApp.swift */; };
-		D56DD0D32C9EC44D0092C7D8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DD0D22C9EC44D0092C7D8 /* Persistence.swift */; };
-		D56DD0D62C9EC44D0092C7D8 /* aerolink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D56DD0D42C9EC44D0092C7D8 /* aerolink.xcdatamodeld */; };
 		D56DD0D82C9EC44D0092C7D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DD0D72C9EC44D0092C7D8 /* ContentView.swift */; };
 		D56DD0DA2C9EC44F0092C7D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56DD0D92C9EC44F0092C7D8 /* Assets.xcassets */; };
 		D56DD0DE2C9EC44F0092C7D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56DD0DD2C9EC44F0092C7D8 /* Preview Assets.xcassets */; };
+		D56DD0E52C9ECD5A0092C7D8 /* ESIMItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DD0E42C9ECD5A0092C7D8 /* ESIMItem.swift */; };
+		D56DD0EB2C9ECFBE0092C7D8 /* ESIMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DD0EA2C9ECFBE0092C7D8 /* ESIMViewModel.swift */; };
+		D56DD0EE2C9ECFE50092C7D8 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DD0ED2C9ECFE50092C7D8 /* NetworkService.swift */; };
+		D56DD0F12C9ED0010092C7D8 /* PurchaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DD0F02C9ED0010092C7D8 /* PurchaseService.swift */; };
+		D56DD0F42C9ED01C0092C7D8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DD0F32C9ED01C0092C7D8 /* Constants.swift */; };
+		D56DD0F72C9ED06E0092C7D8 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DD0F62C9ED06E0092C7D8 /* Colors.swift */; };
+		D56DD0FA2C9ED1D80092C7D8 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DD0F92C9ED1D80092C7D8 /* StoreView.swift */; };
+		D56DD0FC2C9ED20C0092C7D8 /* ESIMDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DD0FB2C9ED20C0092C7D8 /* ESIMDetailView.swift */; };
+		D56DD0FF2C9ED2630092C7D8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DD0FE2C9ED2630092C7D8 /* ProfileView.swift */; };
+		D56DD1022C9ED28F0092C7D8 /* PurchasedESIMsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DD1012C9ED28F0092C7D8 /* PurchasedESIMsView.swift */; };
+		D56DD1042C9ED3FE0092C7D8 /* PurchasedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DD1032C9ED3FE0092C7D8 /* PurchasedViewModel.swift */; };
+		D56DD1062C9F02E70092C7D8 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = D56DD1052C9F02E70092C7D8 /* countries.json */; };
+		D56DD1082C9F031B0092C7D8 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56DD1072C9F031B0092C7D8 /* Country.swift */; };
+		D5760D9B2CA1758F0027675D /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5760D9A2CA1758F0027675D /* FontExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D56DD0CD2C9EC44D0092C7D8 /* aerolink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aerolink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56DD0D02C9EC44D0092C7D8 /* aerolinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aerolinkApp.swift; sourceTree = "<group>"; };
-		D56DD0D22C9EC44D0092C7D8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		D56DD0D52C9EC44D0092C7D8 /* aerolink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = aerolink.xcdatamodel; sourceTree = "<group>"; };
 		D56DD0D72C9EC44D0092C7D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D56DD0D92C9EC44F0092C7D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D56DD0DB2C9EC44F0092C7D8 /* aerolink.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = aerolink.entitlements; sourceTree = "<group>"; };
 		D56DD0DD2C9EC44F0092C7D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D56DD0E42C9ECD5A0092C7D8 /* ESIMItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESIMItem.swift; sourceTree = "<group>"; };
+		D56DD0EA2C9ECFBE0092C7D8 /* ESIMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESIMViewModel.swift; sourceTree = "<group>"; };
+		D56DD0ED2C9ECFE50092C7D8 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		D56DD0F02C9ED0010092C7D8 /* PurchaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseService.swift; sourceTree = "<group>"; };
+		D56DD0F32C9ED01C0092C7D8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D56DD0F62C9ED06E0092C7D8 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		D56DD0F92C9ED1D80092C7D8 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		D56DD0FB2C9ED20C0092C7D8 /* ESIMDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESIMDetailView.swift; sourceTree = "<group>"; };
+		D56DD0FE2C9ED2630092C7D8 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D56DD1012C9ED28F0092C7D8 /* PurchasedESIMsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedESIMsView.swift; sourceTree = "<group>"; };
+		D56DD1032C9ED3FE0092C7D8 /* PurchasedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedViewModel.swift; sourceTree = "<group>"; };
+		D56DD1052C9F02E70092C7D8 /* countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		D56DD1072C9F031B0092C7D8 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		D5760D9A2CA1758F0027675D /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +80,16 @@
 		D56DD0CF2C9EC44D0092C7D8 /* aerolink */ = {
 			isa = PBXGroup;
 			children = (
-				D56DD0D02C9EC44D0092C7D8 /* aerolinkApp.swift */,
-				D56DD0D22C9EC44D0092C7D8 /* Persistence.swift */,
-				D56DD0D72C9EC44D0092C7D8 /* ContentView.swift */,
-				D56DD0D92C9EC44F0092C7D8 /* Assets.xcassets */,
-				D56DD0DB2C9EC44F0092C7D8 /* aerolink.entitlements */,
-				D56DD0D42C9EC44D0092C7D8 /* aerolink.xcdatamodeld */,
+				D5760D992CA175010027675D /* Extensions */,
+				D56DD0E62C9ECF360092C7D8 /* App */,
+				D56DD0E72C9ECF440092C7D8 /* Models */,
 				D56DD0DC2C9EC44F0092C7D8 /* Preview Content */,
+				D56DD0F52C9ED04B0092C7D8 /* Resources */,
+				D56DD0EC2C9ECFCB0092C7D8 /* Services */,
+				D56DD0F82C9ED0900092C7D8 /* SupportingFiles */,
+				D56DD0F22C9ED0070092C7D8 /* Utilities */,
+				D56DD0E92C9ECF920092C7D8 /* ViewModels */,
+				D56DD0E82C9ECF520092C7D8 /* Views */,
 			);
 			path = aerolink;
 			sourceTree = "<group>";
@@ -73,6 +100,87 @@
 				D56DD0DD2C9EC44F0092C7D8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D56DD0E62C9ECF360092C7D8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D56DD0D02C9EC44D0092C7D8 /* aerolinkApp.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		D56DD0E72C9ECF440092C7D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D56DD0E42C9ECD5A0092C7D8 /* ESIMItem.swift */,
+				D56DD1072C9F031B0092C7D8 /* Country.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D56DD0E82C9ECF520092C7D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D56DD0D72C9EC44D0092C7D8 /* ContentView.swift */,
+				D56DD0F92C9ED1D80092C7D8 /* StoreView.swift */,
+				D56DD0FB2C9ED20C0092C7D8 /* ESIMDetailView.swift */,
+				D56DD0FE2C9ED2630092C7D8 /* ProfileView.swift */,
+				D56DD1012C9ED28F0092C7D8 /* PurchasedESIMsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D56DD0E92C9ECF920092C7D8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D56DD0EA2C9ECFBE0092C7D8 /* ESIMViewModel.swift */,
+				D56DD1032C9ED3FE0092C7D8 /* PurchasedViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		D56DD0EC2C9ECFCB0092C7D8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D56DD0ED2C9ECFE50092C7D8 /* NetworkService.swift */,
+				D56DD0F02C9ED0010092C7D8 /* PurchaseService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		D56DD0F22C9ED0070092C7D8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D56DD0F32C9ED01C0092C7D8 /* Constants.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		D56DD0F52C9ED04B0092C7D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D56DD0D92C9EC44F0092C7D8 /* Assets.xcassets */,
+				D56DD0F62C9ED06E0092C7D8 /* Colors.swift */,
+				D56DD1052C9F02E70092C7D8 /* countries.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D56DD0F82C9ED0900092C7D8 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D56DD0DB2C9EC44F0092C7D8 /* aerolink.entitlements */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D5760D992CA175010027675D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D5760D9A2CA1758F0027675D /* FontExtension.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D56DD1062C9F02E70092C7D8 /* countries.json in Resources */,
 				D56DD0DE2C9EC44F0092C7D8 /* Preview Assets.xcassets in Resources */,
 				D56DD0DA2C9EC44F0092C7D8 /* Assets.xcassets in Resources */,
 			);
@@ -145,10 +254,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5760D9B2CA1758F0027675D /* FontExtension.swift in Sources */,
+				D56DD1082C9F031B0092C7D8 /* Country.swift in Sources */,
+				D56DD0FA2C9ED1D80092C7D8 /* StoreView.swift in Sources */,
+				D56DD0EB2C9ECFBE0092C7D8 /* ESIMViewModel.swift in Sources */,
+				D56DD0F72C9ED06E0092C7D8 /* Colors.swift in Sources */,
+				D56DD0E52C9ECD5A0092C7D8 /* ESIMItem.swift in Sources */,
 				D56DD0D12C9EC44D0092C7D8 /* aerolinkApp.swift in Sources */,
-				D56DD0D32C9EC44D0092C7D8 /* Persistence.swift in Sources */,
+				D56DD0FC2C9ED20C0092C7D8 /* ESIMDetailView.swift in Sources */,
+				D56DD1022C9ED28F0092C7D8 /* PurchasedESIMsView.swift in Sources */,
+				D56DD0F12C9ED0010092C7D8 /* PurchaseService.swift in Sources */,
 				D56DD0D82C9EC44D0092C7D8 /* ContentView.swift in Sources */,
-				D56DD0D62C9EC44D0092C7D8 /* aerolink.xcdatamodeld in Sources */,
+				D56DD1042C9ED3FE0092C7D8 /* PurchasedViewModel.swift in Sources */,
+				D56DD0EE2C9ECFE50092C7D8 /* NetworkService.swift in Sources */,
+				D56DD0FF2C9ED2630092C7D8 /* ProfileView.swift in Sources */,
+				D56DD0F42C9ED01C0092C7D8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,19 +487,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		D56DD0D42C9EC44D0092C7D8 /* aerolink.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				D56DD0D52C9EC44D0092C7D8 /* aerolink.xcdatamodel */,
-			);
-			currentVersion = D56DD0D52C9EC44D0092C7D8 /* aerolink.xcdatamodel */;
-			path = aerolink.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = D56DD0C52C9EC44D0092C7D8 /* Project object */;
 }

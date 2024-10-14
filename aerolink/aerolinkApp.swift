@@ -8,13 +8,12 @@
 import SwiftUI
 
 @main
-struct aerolinkApp: App {
-    let persistenceController = PersistenceController.shared
-
+struct AeroLinkApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .preferredColorScheme(.light)
+                .statusBar(hidden: false)
         }
     }
 }

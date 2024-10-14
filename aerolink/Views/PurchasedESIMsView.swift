@@ -8,11 +8,17 @@
 import SwiftUI
 
 struct PurchasedESIMsView: View {
+    @StateObject private var viewModel = ESIMViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+//            List(viewModel.purchasedESIMs) { esim in
+//                ESIMRowView(esim: esim)
+//            }
+//            .navigationTitle("My eSIMs")
+//            .onAppear {
+//                viewModel.fetchPurchasedESIMs()
+//            }
+        }
     }
-}
-
-#Preview {
-    PurchasedESIMsView()
 }
